@@ -4,7 +4,7 @@
 # I need to edit this so that it can be used even if you haven't created the conda environment and stuff.
 __conda_setup="$('/home/cjkimmel/miniconda3/condabin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 eval "$__conda_setup"
-conda activate blast_clustalo_env
+conda activate kitchen_sink
 
 # make the directories for everything to go
 mkdir -p blast_db blast_out hit_seqs cat_genes clustalo_out
