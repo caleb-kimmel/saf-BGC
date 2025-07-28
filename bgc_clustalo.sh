@@ -11,6 +11,8 @@
 # I was worried that it would time out after like 12 hours and we wouldn't get our results and I was getting highly fluctuating info so I set it to 20 hrs.
 # It took no more than 1 hour to finish. So please change the computing and time allocations.
 
+# note: i need to establish a thing where i make this module
 module load clustalo
 
+# note: i need to figure out how to make the script specific for the secure shell even though i need to transfer stuff from the local terminal to the secure shell
 clustalo -i BGC_reg_seqs.fasta --distmat-out=distmat.txt --guidetree-out=guidetree.dnd --full --use_kimura -o BGC_reg_seqs.aln --outfmt=clu --threads=16
