@@ -1,0 +1,8 @@
+name: antismash_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - antismash
+prefix: /home/cjkimmel/miniconda3/envs/antismash_env

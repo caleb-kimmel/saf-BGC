@@ -1,0 +1,11 @@
+name: kitchen_sink
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - samtools
+  - blast
+  - clustalo
+  - entrez-direct
+prefix: /home/cjkimmel/miniconda3/envs/kitchen_sink
