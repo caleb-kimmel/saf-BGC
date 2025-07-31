@@ -62,6 +62,8 @@ for scaffold in scaffolds/scaf*.fasta; do
 			cat "$hit_seq" "$gene" > "$cat_seqs"
 
 			clustalo -i "$cat_seqs" -o "$clustalo_output" --outfmt=clu --force
+
+   			echo "TBLASTX search of ${GENE_NAME} vs ${SCAFFOLD_NAME} finished successfully."
 		else
 			echo "TBLASTX search of ${GENE_NAME} vs ${SCAFFOLD_NAME} returned no hits."
 		fi
